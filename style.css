@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+/* Navigation bar */
+nav {
+    background-color: darkslategray;
+    padding: 14px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .brand {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav .menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+    font-size: 14px;
+}
+
+nav .menu a:hover {
+    text-decoration: underline;
+}
+
+/* Content layout */
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Project grid list */
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.project-item {
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 15px;
+    width: calc(50% - 15px);
+    box-sizing: border-box;
+}
+
+/* Badges & Buttons */
+.badge {
+    background: aliceblue;
+    color: steelblue;
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.btn {
+    background-color: royalblue;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: navy;
+}
+
+/* Form inputs */
+.form-group {
+    margin-bottom: 14px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
